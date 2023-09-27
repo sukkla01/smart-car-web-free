@@ -1,0 +1,9 @@
+.modalStyle2 .ant-modal-header {
+    border-radius: 20px 20px 0 0;
+    background-color: antiquewhite;
+  }
+
+.txtRed{
+    color :  red;
+    margin-right : 10px
+}

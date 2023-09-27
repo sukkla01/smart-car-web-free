@@ -1,0 +1,158 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Kanit';
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+
+}
+
+
+.nav.nav-link-tabs .nav-item .nav-link.active {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(var(--color-primary) / var(--tw-border-opacity));
+  font-weight: 500;
+  background-color: blanchedalmond;
+}
+
+
+.ant-notification-notice {
+  position: relative;
+  width: 384px;
+  max-width: calc(100vw - 24px * 2);
+  margin-bottom: 16px;
+  margin-left: auto;
+  padding: 16px 24px;
+  overflow: hidden;
+  line-height: 1.5715;
+  word-wrap: break-word;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%),
+    0 6px 16px 0 rgb(0 0 0 / 8%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+  background-color: darkseagreen
+}
+
+
+.ant-modal-header {
+  padding: 16px 24px;
+  color: rgba(0, 0, 0, 0.85);
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 2px 2px 0 0;
+  background-color: aquamarine;
+}
+
+.ant-btn-primary {
+  color: #fff;
+  /* background-color: #1677ff; */
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+  background-color: rgb(var(--color-success) / var(--tw-bg-opacity))
+}
+
+.ant-input {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 4px 11px;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: 'Kanit';
+  position: relative;
+  display: inline-block;
+  /* width: 100%; */
+  min-width: 0;
+  background-color: #ffffff;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+:where(.css-dev-only-do-not-override-15rg2km).ant-picker .ant-picker-input>input {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 1px;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  font-family: 'Kanit';
+  line-height: 1.5714285714285714;
+  background-color: #ffffff;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-radius: 0;
+  transition: all 0.2s;
+  flex: auto;
+  height: auto;
+  background: transparent;
+  border: 0;
+}
+
+.ant-switch {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  line-height: 22px;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  position: relative;
+  display: inline-block;
+  min-width: 44px;
+  height: 22px;
+  vertical-align: middle;
+  background: rgba(0, 0, 0, 0.25);
+  border: 0;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.2s;
+  user-select: none;
+}
+
+.zoom-img,
+.zoom-img-wrap {
+  position: relative;
+  z-index: 66666;
+  transition: all 300ms;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  appearance: none;
+  font-family: 'Kanit';
+
+}
+

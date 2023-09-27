@@ -1,0 +1,33 @@
+{
+  "name": "SmartCar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 66",
+    "export": "next build && next export",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "antd": "^5.5.0",
+    "axios": "^0.27.2",
+    "jwt-decode": "^3.1.2",
+    "lucide-react": "^0.90.0",
+    "md5": "^2.3.0",
+    "moment": "^2.29.4",
+    "next": "12.3.1",
+    "pdf-lib": "^1.17.1",
+    "pdfmake": "^0.2.7",
+    "react": "18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "18.2.0",
+    "socket.io-client": "^2.5.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1",
+    "postcss": "^8.4.16"
+  }
+}
